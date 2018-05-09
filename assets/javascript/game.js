@@ -21,7 +21,7 @@ function RandomCrystal(){
 };
 
 
-
+//Load Inital score to the page
 $(".wins").append("Wins: " +wins);
 $(".loss").append("Looses: " +losses);
 
@@ -65,11 +65,13 @@ function Compare(){
         InitialConditions();
     }
     
+    
 }
 
 
 //This will add when the blue crystal is click
 $("#blue").on("click",function(){
+    $("#message").empty();
     score=score+blueNumber;
     $(".score").empty();
     $(".score").append(score);
@@ -78,6 +80,7 @@ $("#blue").on("click",function(){
 
 //This will add when the green crystal is click
 $("#green").on("click",function(){
+    $("#message").empty();
     score=score+greenNumber;
     $(".score").empty();
     $(".score").append(score);
@@ -86,6 +89,7 @@ $("#green").on("click",function(){
 
 //This will add when the pink crystal is click
 $("#pink").on("click",function(){
+    $("#message").empty();
     score=score+pinkNumber;
     $(".score").empty();
     $(".score").append(score);
@@ -94,6 +98,7 @@ $("#pink").on("click",function(){
 
 //This will add when the yellow crystal is click
 $("#yellow").on("click",function(){
+    $("#message").empty();
     score=score+yellowNumber;
     $(".score").empty();
     $(".score").append(score);
