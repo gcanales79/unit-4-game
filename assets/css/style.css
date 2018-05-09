@@ -1,0 +1,65 @@
+body {
+    background-image: url("../images/wormz.png");
+}
+
+.title{
+    font-weight: bold;
+    color: #ffff;
+    background-color: rgb(207, 137, 7);
+    font-size:20px;
+    height:60px;
+    width: 350px;
+}
+
+.instructions{
+    margin-top: 10px;
+    background-color:rgba(222, 235, 150, 0.678);
+    color:green;
+    font-weight: bold;
+    font-size: 15px;
+    width:450px;
+    margin-bottom:10px;
+}
+
+.randomNumber{
+    background-color:rgb(8, 141, 8);
+    font-size: 20px;
+    height: 90px;
+    margin-right:10px;
+}
+
+.scoreBoard{
+    background-color:rgb(67, 241, 241);
+    height:90px;
+}
+
+.crystals{
+    margin-top:10px;
+    margin-bottom:10px;
+ 
+}
+
+
+
+.total{
+    color:#ffff;
+    background-color:teal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    font-size: 15px;
+}
+
+.score{
+    font-weight:bold;
+    color:#ffff;
+    background-color:teal;
+    width: 400px;
+    height: 80px;
+    font-size: 20px;
+}
+
+button{
+    margin-right:10px;
+}
+
