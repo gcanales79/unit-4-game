@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 var randomNumber;
 var wins=0;
 var losses=0;
@@ -103,4 +105,6 @@ $("#yellow").on("click",function(){
     $(".score").empty();
     $(".score").append(score);
     Compare();
+})
+
 })
